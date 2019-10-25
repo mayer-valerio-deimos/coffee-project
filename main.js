@@ -19,7 +19,6 @@ var coffees = [
 ];
 
 //VARIABLES that contain the Query Selectors for specific IDs
-var results = [];
 var tbody = document.querySelector('#coffees');
 var submitButton = document.querySelector('#submit');
 var roastSelection = document.querySelector('#roast-selection');
@@ -64,7 +63,7 @@ newSubmit.addEventListener('click', function (e) {
 });
 
 coffeeName.addEventListener('input', function () {
-
+    let results = [];
     let val = this.value;
     /*erase all items from results array to start over*/
     closeAllLists();

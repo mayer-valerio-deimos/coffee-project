@@ -112,7 +112,7 @@ function renderCoffee(coffee) {
 //function that displays all the coffees selected from an array and concatenate them
 function renderCoffees(coffees) {
     let html = '';
-    for(let i=0; i < coffees.length; i++){
+    for(let i= coffees.length -1; i >= 0; i--){
         html += renderCoffee(coffees[i]);
     }
     return html;

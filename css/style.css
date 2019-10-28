@@ -3,7 +3,7 @@
 }
 
 .jumbotron {
-    background-image: url("latteart.jpg");
+    background-image: url("../img/latteart.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -42,7 +42,7 @@
 }
 
 .form-info{
-    background-image: url("serving-coffee.jpeg");
+    background-image: url("../img/serving-coffee.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -51,7 +51,7 @@
 }
 
 .adding{
-    background-image: url("window.jpeg");
+    background-image: url("../img/window.jpeg");
 
 }
 
